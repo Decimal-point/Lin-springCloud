@@ -1,11 +1,13 @@
 package com.lin.producer;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-/*@ComponentScan("com.linx")
-@EnableAutoConfiguration*/
+@ComponentScan("com.linx")
+@EnableAutoConfiguration
 /*@Configuration
 @Controller*/
 public class Application {
