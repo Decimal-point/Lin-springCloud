@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud.iml" filepath="$PROJECT_DIR$/Lin-springCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-config/Lin-springCloud-config.iml" filepath="$PROJECT_DIR$/Lin-springCloud-config/Lin-springCloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-consumer/Lin-springCloud-consumer.iml" filepath="$PROJECT_DIR$/Lin-springCloud-consumer/Lin-springCloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-dao/Lin-springCloud-dao.iml" filepath="$PROJECT_DIR$/Lin-springCloud-dao/Lin-springCloud-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-orm/Lin-springCloud-orm.iml" filepath="$PROJECT_DIR$/Lin-springCloud-orm/Lin-springCloud-orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-producer/Lin-springCloud-producer.iml" filepath="$PROJECT_DIR$/Lin-springCloud-producer/Lin-springCloud-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-service/Lin-springCloud-service.iml" filepath="$PROJECT_DIR$/Lin-springCloud-service/Lin-springCloud-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lin-springCloud-utils/Lin-springCloud-utils.iml" filepath="$PROJECT_DIR$/Lin-springCloud-utils/Lin-springCloud-utils.iml" />
+    </modules>
+  </component>
+</project>

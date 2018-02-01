@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Lin-springCloud-consumer" />
+        <module name="Lin-springCloud-dao" />
+        <module name="Lin-springCloud-orm" />
+        <module name="Lin-springCloud-producer" />
+        <module name="Lin-springCloud-service" />
+        <module name="Lin-springCloud-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Lin-springCloud" target="1.8" />
+      <module name="Lin-springCloud-config" target="1.5" />
+      <module name="Lin-springCloud-consumer" target="1.8" />
+      <module name="Lin-springCloud-dao" target="1.8" />
+      <module name="Lin-springCloud-orm" target="1.5" />
+      <module name="Lin-springCloud-producer" target="1.6" />
+      <module name="Lin-springCloud-service" target="1.8" />
+      <module name="Lin-springCloud-utils" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

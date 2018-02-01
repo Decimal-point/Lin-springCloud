@@ -1,0 +1,20 @@
+#工作环境
+service:
+    port: 2020
+spring:
+    application:
+        name: Lin-springCloud-producer
+    data:
+        solr:
+            host: http://localhost:2010/solr/
+            repositories:
+                enabled: true
+    mongodb:
+            host: localhost
+            port: 1234
+            username: tomtop
+            password: 12345678
+            database: myMongo
+            authentication-database: jtomtoperp
+            repositories:
+                  enabled: true
