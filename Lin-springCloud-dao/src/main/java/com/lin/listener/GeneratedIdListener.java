@@ -2,6 +2,7 @@ package com.lin.listener;
 
 import com.lin.annotation.GenarataId;
 import com.lin.util.GenerateMongoCollectionId;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;
 import org.springframework.data.mongodb.core.mapping.event.BeforeConvertEvent;
 import org.springframework.stereotype.Component;
@@ -13,7 +14,6 @@ import java.lang.reflect.Field;
 
 @Component
 public class GeneratedIdListener extends AbstractMongoEventListener<Object>{
-    @Resource
     private GenerateMongoCollectionId generateMongoCollectionId;
 
     @Override

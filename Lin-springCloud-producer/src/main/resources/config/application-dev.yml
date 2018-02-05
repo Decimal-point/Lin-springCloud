@@ -1,0 +1,20 @@
+#开发环境
+server:
+    port: 3040
+spring:
+    application:
+        name: Lin-springCloud-producer
+ #   data:
+ #       solr:
+ #           host: http://localhost:2010/solr/
+  #          repositories:
+  #              enabled: true
+    mongodb:
+            host: localhost
+            port: 27017
+            #username: tomtop
+            #password: 12345678
+            database: myfirstMongo
+            authentication-database: jtomtoperp
+            repositories:
+                  enabled: true

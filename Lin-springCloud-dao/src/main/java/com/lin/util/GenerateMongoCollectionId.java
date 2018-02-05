@@ -12,7 +12,6 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 
 public class GenerateMongoCollectionId {
-    @Autowired
     private MongoTemplate mongoTemplate;
 
     public Long getNextId(Class<?> clazz) {

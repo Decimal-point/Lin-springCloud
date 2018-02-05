@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.repository.config.EnableSolrRepositories;
 
-@Configuration
+/*@Configuration
 @EnableSolrRepositories(basePackages = {"com.lin"},multicoreSupport = true)
 public class SolrConfig {
     @Value("${spring.data.solr.host}")
@@ -22,4 +22,4 @@ public class SolrConfig {
     public SolrTemplate solrTemplate(){
         return new SolrTemplate(solrServer);
     }
-}
+}*/

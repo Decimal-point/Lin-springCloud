@@ -12,12 +12,12 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
-@Repository
+@Service
 public class UserServiceImpl implements UserService {
-    @Autowired
     private MongoMainDao<UserBean,Long> userDao;
     @Override
     public Boolean updateMulti(Map<String, Object> query, Map<String, Object> update) {

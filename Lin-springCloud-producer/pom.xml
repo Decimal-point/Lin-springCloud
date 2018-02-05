@@ -10,11 +10,11 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.3.3.RELEASE</version>
+        <version>1.5.10.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <dependencies>
-       <!-- <dependency>
+       <dependency>
             <groupId>com.lin</groupId>
             <artifactId>Lin-springCloud-orm</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -23,7 +23,12 @@
             <groupId>com.lin</groupId>
             <artifactId>Lin-springCloud-service</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>-->
+        </dependency>
+        <dependency>
+            <groupId>com.lin</groupId>
+            <artifactId>Lin-springCloud-consumer</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

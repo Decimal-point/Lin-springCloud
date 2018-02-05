@@ -1,0 +1,38 @@
+#app:
+#    name: Lin-springCloud
+#report:
+#    url:
+#server:
+#    port: 2020
+spring:
+    profiles:
+        active: dev
+    application:
+        name: Lin-SpringCloud
+#日志
+#logging:
+#    config: classpath:config/logback-spring.xml
+#    level:
+#        org:
+#            springframework:
+#                  web: debug
+#启用/关闭
+endpoints:
+    shutdown:
+        enable: true
+#禁用密码验证
+        sensitive: false
+    health:
+        sensitive: false
+eureka:
+    client:
+        serviceUrl:
+          defaultZone: http://localhost:2200/eureka/
+        register-with-eureka: false
+        fetch-registry: false
+security:
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: 123
